@@ -9,9 +9,6 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="math">
-      <UniqueIdentifier>{b87a5b2f-6c99-4499-98ac-eead99ced654}</UniqueIdentifier>
-    </Filter>
     <Filter Include="shaders">
       <UniqueIdentifier>{0ebf547f-9197-49d9-b5bd-3eea85d98eda}</UniqueIdentifier>
     </Filter>
@@ -25,15 +22,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="math\vec3.hpp">
-      <Filter>math</Filter>
-    </ClInclude>
-    <ClInclude Include="math\mat3.hpp">
-      <Filter>math</Filter>
-    </ClInclude>
-    <ClInclude Include="math\quat.hpp">
-      <Filter>math</Filter>
-    </ClInclude>
     <ClInclude Include="highgl\highgl.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>

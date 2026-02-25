@@ -7,10 +7,12 @@
 
 #include "shaders_source.hpp"
 #include <chrono>
-#include "math/vec3.hpp"
-#include "math/mat3.hpp"
-#include "math/quat.hpp"
 
+#define USE_STANDART_MATH
+#include "basic_math_includes.hpp"
+#include "vec3.hpp"
+#include "mat3.hpp"
+#include "quat.hpp"
 
 #define ERROR_ERROR_NAME L"Ошибка"
 #define error_named(e, n) MessageBoxW(NULL, e, n, MB_ICONERROR|MB_OK)

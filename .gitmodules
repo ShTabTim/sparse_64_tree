@@ -1,0 +1,3 @@
+[submodule "submodules/ShModules"]
+    path = submodules/ShModules
+    url = https://github.com/ShTabTim/ShModules
